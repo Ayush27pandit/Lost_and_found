@@ -5,36 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
+    
+
 </head>
 <body>
     <div class="header">
         <img class="logo" src="assets/logo.png" alt="logo">
-        <h1 class="logoText">Lost And Foundd</h1>
+        <h1 class="logoText">Lost And Found</h1>
     </div>
     <div class="container">
         <nav class="navbar">
             <ul class="navMembers">
-                <li><a href="">Hommies</a></li>
-                <li><a href="">Profile</a></li>
-                <li><a href="">Settings</a></li>
-                <li><a href="">Notifications</a></li>
+                <li><a href=""><i data-lucide="home"></i>   Home</a></li>
+                <li><a href=""><i data-lucide="user"></i>Profile</a></li>
+                <li><a href=""><i data-lucide="settings"></i>Settings</a></li>
+                <li><a href=""><i data-lucide="bell"></i>Notifications</a></li>
             </ul>
         </nav>
     
         
-
+        
         <template id="product-template">
             <div class="product">
                 <img src="" alt="" class="product-image">
+                <hr>
                 <h2 class="product-name"></h2>
+                <hr>
                 <p class="product-description"></p>
+                <hr>
                 <span class="product-contact"></span>
             </div>
         </template>
 
         <div class="product-list"></div>
-
+        
     </div>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <script src="script.js"></script>
 </body>
 </html>

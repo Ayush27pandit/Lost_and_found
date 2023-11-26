@@ -1,26 +1,26 @@
 document.addEventListener('DOMContentLoaded',function (){
 
-
+    lucide.createIcons();
 const productContainer=document.querySelector(".product-list");
 const productTemplate=document.querySelector("#product-template")
 const items=[
     {
-        name: "1st item",
-        description:"About item 1 like where it was found",
-        contact:"009329393",
-        image:"path.....",
+        name: "Rudra Singh",
+        description:"Water bottle,red colored cap, green leaves printed.Found at Canteen",
+        contact:9900233321,
+        image:"assets/bottle.jpg",
     },
     {
-        name: "2nd item",
+        name: "Aditya Verma",
         description:"About item 2 like where it was found",
-        contact:"00932239393",
-        image:"path.....",
+        contact:823325211,
+        image:"assets/bag.jpg",
     },
     {
-        name: "3rd item",
+        name: "Naveen Yadav",
         description:"About item 3 like where it was found",
-        contact:"009329393",
-        image:"path.....",
+        contact:864345631,
+        image:"assets/keys.webp",
     },
 ]
 
